@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+<style>
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+
+}
+.body{
+    font-family: sans-serif;
+}
+
+nav{
+
+
+    /* border: 1px solid red; */
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+nav ul{
+    height: 10vh;
+    /* border: 1px solid green; */
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+nav ul li{
+    /* border: 1px solid blue; */
+    list-style: none;
+    padding: .5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    border-radius: 10px;
+    color: white;
+    transition: all ease .5s;
+}
+nav ul li:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+
+.main{
+    height: 90vh;
+    /* border: 1px solid orange; */
+}
+.left{
+    /* border: 1px solid greenyellow; */
+    height: 50vh;
+    width: 50vw;
+}
+.right{
+    /* border: 1px solid blue; */
+    height: 50vh;
+    width: 50vw;
+    padding: 1rem;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right img{
+    height: 100%;
+    width: 100%;
+    box-shadow: 5px 5px 15px gray;
+    border-radius: 10px;
+}
+.left{
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-direction: column;
+padding: 1rem;
+}
+.left h1{
+    font-size: 3rem;
+}
+.left p{
+    line-height: 23px;
+    letter-spacing: 1.5px;
+    color: gray;
+}
+</style>
+
+
+
+
+
+</head>
+<body>
+    <!-- Navbar starts -->
+
+  <nav>
+  <ul>
+  <li>Home</li>
+  <li>Services</li>
+  <li>About us</li>
+  <li>Contact us</li>
+
+
+  </ul>
+
+  </nav>
+
+    <!-- Navbar ends -->
+    <!-- headsec starts -->
+     <div class="main">
+        <div class="left"><h1>Welcome to Our Sites</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis voluptatem et velit repellendus illo ab laborum quidem laboriosam consectetur aliquid est, tenetur voluptate. Architecto, eum illo molestiae distinctio rerum repellat.</p>
+
+        </div>
+        <div class="right"><img src="galery.jpg" alt="">
+
+        </div>
+     </div>
+
+
+
+    <!-- headsec ends -->
+    
+
+</body>
+</html>
